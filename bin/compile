@@ -12,7 +12,7 @@ VERSION="2.0.1"
 ARCHIVE_NAME=phantomjs-${VERSION}-linux-x86_64
 FILE_NAME=${ARCHIVE_NAME}.tar.bz2
 BUILDPACK_PHANTOMJS_PACKAGE=https://s3.amazonaws.com/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2
-EXPECTED_SHASUM=9f206e9aa5372261ae6d14b77151582d
+EXPECTED_SHASUM=99d212c4de81ff25ae163f571ea80bdf905a9256
 
 mkdir -p $CACHE_DIR
 if ! [ -e $CACHE_DIR/$FILE_NAME ]; then
